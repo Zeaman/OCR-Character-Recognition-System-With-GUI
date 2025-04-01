@@ -1,4 +1,4 @@
-# OCR Model Testing Script
+# OCR Model Testing Script Using TKinter GUI
 """
 Amanuel Mihiret
 ML|CV|DL Expert and freelancer at Upwork
