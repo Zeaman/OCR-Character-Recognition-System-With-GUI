@@ -1,3 +1,11 @@
+# OCR Model Testing Script
+"""
+Amanuel Mihiret
+ML|CV|DL Expert and freelancer at Upwork
+
+"""
+
+# Import the required pacakges:
 import os
 import torch
 import argparse
@@ -9,7 +17,7 @@ import numpy as np
 import tkinter as tk
 from tkinter import filedialog, ttk
 
-# Default paths
+# Default paths (DEFINED YOUR MATCH PATHS)
 DEFAULT_MODEL_PATH = '/home/aman-nvidia/My_files/ai_projects/ocr_one/models/best_ocr_model.pth'
 DEFAULT_IMAGE_PATH = '/home/aman-nvidia/My_files/ai_projects/ocr_one/test_images/A_3.png'
 
@@ -184,3 +192,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = OCRApp(root)
     root.mainloop()
+
+                                    # End of the script

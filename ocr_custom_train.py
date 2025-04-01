@@ -1,3 +1,10 @@
+# OCR Model Finu-tuning Using ResNet18 PT-model Script
+"""
+Amanuel Mihiret
+ML|CV|DL Expert and freelancer at Upwork
+
+"""
+
 # Import required packages
 import os
 import torch
@@ -322,3 +329,5 @@ metrics = train_model(
     scheduler, 
     num_epochs
 )
+
+                                    # End of the script

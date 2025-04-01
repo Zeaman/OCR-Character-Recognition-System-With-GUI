@@ -1,3 +1,11 @@
+# OCR Model Testing Script
+"""
+Amanuel Mihiret
+ML|CV|DL Expert and freelancer at Upwork
+
+"""
+
+# Import required packages:
 import os
 import torch
 import argparse
@@ -8,7 +16,7 @@ import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Default paths
+# Default paths (DEFINED YOUR MATCH PATH)
 DEFAULT_MODEL_PATH = '/home/aman-nvidia/My_files/ai_projects/ocr_one/models/best_ocr_model.pth'
 DEFAULT_IMAGE_PATH = '/home/aman-nvidia/My_files/ai_projects/ocr_one/test_images/A_3.png'
 
@@ -186,3 +194,5 @@ if __name__ == "__main__":
     print(f"{'OCR MODEL TESTER':^30}")
     print("="*30)
     predict(args.image, args.model)
+
+                                    # End of the script
